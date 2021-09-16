@@ -6,6 +6,9 @@
         "target": "es5",
         "lib": ["es6", "dom"],
         "declaration": true,
+        "importHelpers": true,
+        "moduleResolution": "node",
+        "noImplicitAny": false,
         "downlevelIteration": true,
         "esModuleInterop": true
     }
